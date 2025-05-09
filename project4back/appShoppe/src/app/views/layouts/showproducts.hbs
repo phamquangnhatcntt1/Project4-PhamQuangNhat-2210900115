@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{this.title}}</title>
+    <link rel="stylesheet" href="/css/communityCode.css">
+    <link rel="stylesheet" href="/css/sytleFooter.css">
+    <link rel="stylesheet" href="/css/sytleHeader.css">
+    <link rel="stylesheet" href="/css/showproducts.css">
+    <link rel="stylesheet" href="/css/styleModal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    {{!--
+    <link rel="stylesheet" href="/main/main.js"> --}}
+</head>
+
+<body>
+    {{{body}}}
+    <script src="/main/main.js"></script>
+    <script src="/main/showproducts.js"></script>
+    <script>
+        document.getElementById('btnAddcart').addEventListener('click', (event) => {
+            event.preventDefault();
+
+            const quanlityInput = document.getElementById('quanlityInput');
+            const hiddenInputQuality = document.getElementById('hiddenQuanlity');
+            const quantity = quanlityInput.value;
+
+
+
+            hiddenInputQuality.value = quantity;
+
+            // Hiển thị modal
+            const modal = document.createElement('div');
+            modal.id = 'modalAdd';
+            modal.className = 'modal-add--show-cart';
+            modal.innerHTML = `
+                <div class="modal-add-warapper flex flex-center flex-col">
+                    <i class="fa-regular fa-circle-check modal-add--check"></i>
+                    <div class="modal-title">Sản phẩm đã được thêm vào Giỏ Hàng</div>
+                </div>
+            `;
+            document.body.appendChild(modal);
+
+            // Hiển thị modal và sau đó gửi form
+            setTimeout(() => {
+                document.getElementById('form-4').submit();
+                document.body.removeChild(modal);
+            }, 2000);
+        });
+
+        document.getElementById('btnBuyNow').addEventListener('click', () => {
+            const form = document.getElementById('form-4');
+            form.action = '/add-cart/' + form.dataset.productId;
+            form.method = 'POST';
+
+            const quanlityInput = document.getElementById('quanlityInput');
+            const hiddenInputQuality = document.getElementById('hiddenQuanlity');
+            hiddenInputQuality.value = quanlityInput.value;
+            document.getElementById('actionBuy').value = 'buy-now';
+
+            form.submit();
+        });
+
+
+    </script>
+    <script src="/main/handleModal.js"></script>
+
+
+</body>
+
+</html>

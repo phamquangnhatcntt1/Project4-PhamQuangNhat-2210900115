@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "66fae09cfa85023bcf84133f"
+  },
+  "image": "http://localhost:3000/uploads/image-1727717532498ghe cong thai hoc.webp",
+  "flag": "http://localhost:3000/uploads/flag-1727717532499flaglove.png",
+  "discount": "-54%",
+  "utilities": "http://localhost:3000/uploads/utilities-1727717532499inforPromotion4.png",
+  "title": "Ghế Xoay Văn Phòng, Ghế Công Thái Học Ngả Lưng Gật Gù Có Tựa Đầu Thiết Kế Hiện Đại Trẻ Trung",
+  "voucher": "",
+  "price": "669.000",
+  "available": 14,
+  "createdAt": {
+    "$date": "2024-09-30T17:32:12.510Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-30T17:32:12.510Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6731bf7d988f05d6ea8a4b67"
+  },
+  "image": "http://localhost:3000/uploads/image-1731313533198flasesale8.jpg",
+  "flag": "http://localhost:3000/uploads/flag-1731313533199flaglove.png",
+  "discount": "-54%",
+  "utilities": "http://localhost:3000/uploads/utilities-1731313533199inforPromotion1.png",
+  "title": "áo",
+  "voucher": "",
+  "price": "139.000",
+  "available": 342,
+  "createdAt": {
+    "$date": "2024-11-11T08:25:33.211Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-11T08:25:33.211Z"
+  },
+  "__v": 0
+}]

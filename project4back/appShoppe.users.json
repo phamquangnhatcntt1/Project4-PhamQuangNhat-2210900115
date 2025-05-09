@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "668ea1103971580c26e5d021"
+  },
+  "userKey": "huy12@gmail.com",
+  "password": "$2b$10$O2RyDYkyAWAphoxRp7o.Ze8SqcPwSTQKs/TFiJ8kc8ZsVGWwxcUgm",
+  "createdAt": {
+    "$date": "2024-07-10T14:56:16.314Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-15T02:14:04.743Z"
+  },
+  "__v": 0,
+  "isAdmin": false
+},
+{
+  "_id": {
+    "$oid": "66e9a9a5f0a01f50513993cb"
+  },
+  "userKey": "admin@gmail.com",
+  "password": "$2b$10$qVeTJWFIx/ulUWeDqojzqeBzAXX4rJMiDcDUne0dzLp86SINIIb8K",
+  "createdAt": {
+    "$date": "2024-09-17T16:09:09.463Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-04T09:06:37.027Z"
+  },
+  "__v": 0,
+  "isAdmin": true
+},
+{
+  "_id": {
+    "$oid": "6715106fdc28f9dbecb91061"
+  },
+  "userKey": "huy1@gmail.com",
+  "password": "$2b$10$g1NQtg/NprzlBO9qiEE3S.ouL12IpRzNwMb76ZErY6R22NnFczb7u",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2024-10-20T14:15:11.383Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-20T14:15:11.383Z"
+  },
+  "__v": 0
+}]

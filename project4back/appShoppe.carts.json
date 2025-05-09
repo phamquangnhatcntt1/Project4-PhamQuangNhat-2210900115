@@ -1,0 +1,58 @@
+[{
+  "_id": {
+    "$oid": "66c4c58ad3c627a78ca5d61a"
+  },
+  "idUsers": {
+    "$oid": "668ea1103971580c26e5d021"
+  },
+  "products": [
+    {
+      "idProducts": {
+        "$oid": "66fae09cfa85023bcf84133f"
+      },
+      "image": "http://localhost:3000/uploads/image-1727717532498ghe cong thai hoc.webp",
+      "title": "Ghế Xoay Văn Phòng, Ghế Công Thái Học Ngả Lưng Gật Gù Có Tựa Đầu Thiết Kế Hiện Đại Trẻ Trung",
+      "price": "669.000",
+      "quanlity": 1,
+      "_id": {
+        "$oid": "66fc28bbcde81a8ca408425a"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-08-20T16:34:18.610Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-15T01:34:02.066Z"
+  },
+  "__v": 45
+},
+{
+  "_id": {
+    "$oid": "670dd0238e60810391276108"
+  },
+  "idUsers": {
+    "$oid": "66e9a9a5f0a01f50513993cb"
+  },
+  "products": [
+    {
+      "idProducts": {
+        "$oid": "66fae09cfa85023bcf84133f"
+      },
+      "image": "http://localhost:3000/uploads/image-1727717532498ghe cong thai hoc.webp",
+      "title": "Ghế Xoay Văn Phòng, Ghế Công Thái Học Ngả Lưng Gật Gù Có Tựa Đầu Thiết Kế Hiện Đại Trẻ Trung",
+      "price": "669.000",
+      "quanlity": 1,
+      "_id": {
+        "$oid": "6731c21a988f05d6ea8a4b93"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-10-15T02:14:59.946Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-11T08:36:42.492Z"
+  },
+  "__v": 1
+}]
